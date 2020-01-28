@@ -1,4 +1,4 @@
-#!/bin/sh bash
+#!/bin/bash
 #
 # This script runs through the code in each of the python examples.
 # The purpose is just as an integrtion test, not to actually train
