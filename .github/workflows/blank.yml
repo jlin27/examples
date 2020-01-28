@@ -10,4 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run python examples script
-      run: ./run_python_examples.sh "install_deps,run_all,clean"
+      run: |
+       pip install pytorch 
+       ./run_python_examples.sh "install_deps,run_all,clean"
