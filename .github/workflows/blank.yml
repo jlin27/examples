@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run python examples script
       run: |
-       pip install pytorch 
-       ./run_python_examples.sh "install_deps,run_all,clean"
+        pip install torch 
+        ./run_python_examples.sh "install_deps,run_all,clean"
